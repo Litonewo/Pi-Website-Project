@@ -20,16 +20,18 @@
 <p>Donate Pepsi to Pepsi dog.</p>
 <p>He want the Pepsi.</p>
 
-<button onclick="myFunction()">Donate Pepsi</button>
+<button onclick="donateButton()">Donate Pepsi</button>
 
 <p id="donate"></p>
 
 <script>
-function pepsiDonate() {
-  document.getElementById("donate").innerHTML= "Pepsi donated! Thank you!";
+function donateButton() {
+  document.getElementById("donate").innerHTML = "Pepsi donated! Thank you!";
  }
- 
- </script>
+
+  
+</script>
+
 
 </body>
 </html>
