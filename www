@@ -3,20 +3,20 @@
 <head>
 <title>Pepsi Dog Donation Fund</title>
 <style>
-  body {
-      width: 35em;
-      margin: 0 auto;
-      font-family:  sans-serif;
-  }
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
 </style>
 </head>
 <body>
-<h1> Hello world!</h1>
+<h1>Hello world!</h1>
 <p>This is Pepsi dog.</p>
 
-<img src="https://c.tenor.com/ptwjz0l3z0kAAAAC/dog-drinking-pepsi-pepsie.gif" width = "203">
+<img src="https://c.tenor.com/ptwjzOl3zOkAAAAC/dog-drinking-pepsi-pepsie.gif" width = "203">
 
-<p>He likes Pepsi.</p>
+<p>He likes Pepsi.<p>
 <p>Donate Pepsi to Pepsi dog.</p>
 <p>He want the Pepsi.</p>
 
@@ -24,13 +24,26 @@
 
 <p id="donate"></p>
 
-<script>
-function donateButton() {
-  document.getElementById("donate").innerHTML = "Pepsi donated! Thank you!";
- }
+<h3> <a href="pepsidog.html">Who is Pepsi Dog?</a> </h3>
 
-  
+
+<h3> <a href="donate.html">Why should you donate?</a> </h3>
+
+
+<h3> <a href="donationfund.html">About the Fund</a> </h3>
+
+<script>
+
+var counter = 0; 
+
+function donateButton() {
+	counter = counter + 1;
+ 	document.getElementById("donate").innerHTML = counter + " Pepsi donated! Thank you!";
+}
+
+
 </script>
+
 
 
 </body>
