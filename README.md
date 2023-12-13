@@ -1,6 +1,6 @@
 # Pi-Website-Project
 
-Code for my website for project for cybersecurity class.
+Code for my basic website for project for cybersecurity class.
 
 Website is being hosted by on a Raspberry Pi using Nginx.
 
